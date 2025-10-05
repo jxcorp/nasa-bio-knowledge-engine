@@ -53,12 +53,8 @@ To get a local copy up and running, follow these simple steps.
     # or
     yarn install
     ```
-3.  Place your rotating Earth video in the public folder:
-    ```bash
-    # Ensure you have the video file at:
-    /public/earth_rotating.mp4
-    ```
-4.  Run the development server:
+
+3.  Run the development server:
     ```bash
     npm start
     # or
