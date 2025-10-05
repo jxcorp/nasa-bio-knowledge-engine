@@ -1,0 +1,18 @@
+@import "tailwindcss";
+/* src/index.css */
+
+/* 1. CRITICAL: These three lines must be at the very top */
+@custom-variant dark (&:where(.dark, .dark *));
+/* 2. Your custom global styles go here (below the directives) */
+/* ... */
+.bg-radial-gradient {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-stops));
+}
+/* src/index.css */
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 30s linear infinite;
+}
